@@ -14,8 +14,8 @@ get /usuario/
 put /usuario/
 BODY:
 {
-"nombre" : "nuevoNombre"
-"apellido" : "nuevoApellido"
+"nombre" : "nuevoNombre",
+"apellido" : "nuevoApellido",
 "email" : "nuevoEmail"
 }
 ```
