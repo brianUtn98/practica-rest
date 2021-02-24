@@ -14,9 +14,9 @@ get /usuario/
 put /usuario/
 BODY:
 {
-"nombre": "nuevoNombre"
-"apellido": "nuevoApellido"
-"email": "nuevoEmail"
+"nombre" : "nuevoNombre"
+"apellido" : "nuevoApellido"
+"email" : "nuevoEmail"
 }
 ```
 No hace falta utilizar un ID,  ya que el usuario se maneja a nivel sesión.
